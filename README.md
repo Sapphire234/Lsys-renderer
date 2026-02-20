@@ -33,7 +33,7 @@ A built-in BITCHECK utility scans the image at bit level and detects specific pa
 
 Detected sequences are mapped back to their exact pixel coordinates, providing an inspection tool for analyzing the image data.
 
-## Technical details
+## Little technical details
 
 Dynamic memory allocation across all major components
 
@@ -53,7 +53,7 @@ make build
 
 ## Example usage:
 
-LOAD background.ppm
-FONT mystic.bdf
-TYPE "Rune Activated" 50 50 0 255 0
-SAVE result.ppm
+LOAD background.ppm   
+FONT mystic.bdf  
+TYPE "Rune Activated" 50 50 0 255 0  
+SAVE result.ppm  
